@@ -25,8 +25,8 @@
         {
             "atomType": "Molecule",
             "name": "Trailer",
-            "x": 0.19510582010582012,
-            "y": 0.27932960893854747,
+            "x": 0.18689655172413794,
+            "y": 0.27586206896551724,
             "uniqueID": 1738956163132,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1644,8 +1644,8 @@
         {
             "atomType": "Molecule",
             "name": "Sauna",
-            "x": 0.20502645502645506,
-            "y": 0.7715877437325905,
+            "x": 0.19655172413793104,
+            "y": 0.7873563218390804,
             "uniqueID": 1738956170299,
             "ioValues": [
                 {
@@ -2034,7 +2034,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Wood Thickness",
-                                    "x": 0.029699999999999997,
+                                    "x": 0.033,
                                     "y": 0.5793871866295265,
                                     "uniqueID": 1746925948442,
                                     "ioValues": [],
@@ -2107,7 +2107,7 @@
                                         {
                                             "atomType": "Input",
                                             "name": "Number of Bumps",
-                                            "x": 0.029699999999999997,
+                                            "x": 0.033,
                                             "y": 0.42061281337047357,
                                             "uniqueID": "b1e23204-3872-4d50-a023-64389e616a70",
                                             "ioValues": [],
@@ -2117,7 +2117,7 @@
                                         {
                                             "atomType": "Input",
                                             "name": "Thickness",
-                                            "x": 0.029699999999999997,
+                                            "x": 0.033,
                                             "y": 0.67966573816156,
                                             "uniqueID": "f76ef0a5-ea0f-4063-97cc-533d531ee3b7",
                                             "ioValues": [],
@@ -2488,7 +2488,7 @@
                         {
                             "atomType": "Input",
                             "name": "Bench Height",
-                            "x": 0.029699999999999997,
+                            "x": 0.033,
                             "y": 0.34818941504178275,
                             "uniqueID": 1738960927206,
                             "ioValues": [],
@@ -2498,7 +2498,7 @@
                         {
                             "atomType": "Input",
                             "name": "Bench Depth",
-                            "x": 0.029699999999999997,
+                            "x": 0.033,
                             "y": 0.5821727019498607,
                             "uniqueID": 1738960958387,
                             "ioValues": [],
@@ -2541,7 +2541,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Bench Height",
-                                    "x": 0.029699999999999997,
+                                    "x": 0.033,
                                     "y": 0.43732590529247906,
                                     "uniqueID": 1738961006315,
                                     "ioValues": [],
@@ -2550,7 +2550,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Bench Depth",
-                                    "x": 0.029699999999999997,
+                                    "x": 0.033,
                                     "y": 0.6880222841225626,
                                     "uniqueID": 1738961006385,
                                     "ioValues": [],
@@ -3135,7 +3135,7 @@
                         {
                             "atomType": "Input",
                             "name": "Spacing",
-                            "x": 0.029699999999999997,
+                            "x": 0.033,
                             "y": 0.9164345403899721,
                             "uniqueID": 1741649516111,
                             "ioValues": [],
@@ -3568,7 +3568,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Width",
-                                    "x": 0.029699999999999997,
+                                    "x": 0.033,
                                     "y": 0.2900232018561485,
                                     "uniqueID": 1738958702068,
                                     "ioValues": [],
@@ -3578,7 +3578,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Height",
-                                    "x": 0.029699999999999997,
+                                    "x": 0.033,
                                     "y": 0.44083526682134566,
                                     "uniqueID": 1738958702874,
                                     "ioValues": [],
@@ -3588,7 +3588,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Radius",
-                                    "x": 0.029699999999999997,
+                                    "x": 0.033,
                                     "y": 0.6334106728538283,
                                     "uniqueID": 1738958702830,
                                     "ioValues": [],
@@ -4358,8 +4358,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Window",
-                    "x": 0.45965608465608465,
-                    "y": 0.8356545961002785,
+                    "x": 0.4717241379310345,
+                    "y": 0.7701149425287357,
                     "uniqueID": 1738958678830,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -4625,7 +4625,7 @@
                                                 {
                                                     "atomType": "Input",
                                                     "name": "Radius",
-                                                    "x": 0.029699999999999997,
+                                                    "x": 0.033,
                                                     "y": 0.5944272445820433,
                                                     "uniqueID": "bdb21835-7ff7-410e-8610-1d019ee4896c",
                                                     "ioValues": [],
@@ -4730,7 +4730,7 @@
                                                 {
                                                     "atomType": "Input",
                                                     "name": "Radius",
-                                                    "x": 0.029699999999999997,
+                                                    "x": 0.033,
                                                     "y": 0.5944272445820433,
                                                     "uniqueID": "b279499e-8db6-4721-8979-dd15b8d7b441",
                                                     "ioValues": [],
@@ -5544,7 +5544,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Wood Thickness",
-                                    "x": 0.029699999999999997,
+                                    "x": 0.033,
                                     "y": 0.8100558659217877,
                                     "uniqueID": "8e273772-e2ad-4ef2-876d-7d6b320bc647",
                                     "ioValues": [],
@@ -5601,7 +5601,7 @@
                                         {
                                             "atomType": "Input",
                                             "name": "Wood Thickness",
-                                            "x": 0.029699999999999997,
+                                            "x": 0.033,
                                             "y": 0.8100558659217877,
                                             "uniqueID": "18a3d009-7ca1-4b92-b7e9-450c6448dbe9",
                                             "ioValues": [],
@@ -5610,7 +5610,7 @@
                                         {
                                             "atomType": "Input",
                                             "name": "Geometry",
-                                            "x": 0.029699999999999997,
+                                            "x": 0.033,
                                             "y": 0.4860335195530726,
                                             "uniqueID": "1a1ee5d2-887e-4a4a-bec8-1c6a147829ef",
                                             "ioValues": [],
@@ -5681,7 +5681,7 @@
                                                 {
                                                     "atomType": "Input",
                                                     "name": "Angle",
-                                                    "x": 0.029699999999999997,
+                                                    "x": 0.033,
                                                     "y": 0.5167597765363129,
                                                     "uniqueID": "c9d29a94-e78a-4c88-9ecd-a9e8ba5a0880",
                                                     "ioValues": [],
@@ -5691,7 +5691,7 @@
                                                 {
                                                     "atomType": "Input",
                                                     "name": "Height",
-                                                    "x": 0.029699999999999997,
+                                                    "x": 0.033,
                                                     "y": 0.8016759776536313,
                                                     "uniqueID": "517e9a28-4b41-4f98-9605-b4b80b225c77",
                                                     "ioValues": [],
@@ -5701,7 +5701,7 @@
                                                 {
                                                     "atomType": "Input",
                                                     "name": "Thickness",
-                                                    "x": 0.029699999999999997,
+                                                    "x": 0.033,
                                                     "y": 0.6703910614525139,
                                                     "uniqueID": "aa4766e8-437e-4138-95e3-5772a3f5f9a6",
                                                     "ioValues": [],
@@ -5830,7 +5830,7 @@
                                                 {
                                                     "atomType": "Input",
                                                     "name": "Shape",
-                                                    "x": 0.029699999999999997,
+                                                    "x": 0.033,
                                                     "y": 0.3788300835654596,
                                                     "uniqueID": "59100102-adec-4711-accc-15da41562e2b",
                                                     "ioValues": [],
@@ -5839,7 +5839,7 @@
                                                 {
                                                     "atomType": "Input",
                                                     "name": "Number",
-                                                    "x": 0.029699999999999997,
+                                                    "x": 0.033,
                                                     "y": 0.8440111420612814,
                                                     "uniqueID": "21fe3bd3-2d28-41c1-bd4d-0d10ab243ed2",
                                                     "ioValues": [],
@@ -5848,7 +5848,7 @@
                                                 {
                                                     "atomType": "Input",
                                                     "name": "Angle",
-                                                    "x": 0.029699999999999997,
+                                                    "x": 0.033,
                                                     "y": 0.5821727019498607,
                                                     "uniqueID": "7a20c652-6e18-47bf-93cc-75b7aaea507c",
                                                     "ioValues": [],
@@ -6391,7 +6391,7 @@
                                         }
                                     ],
                                     "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them left to right based on bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-                                    "partName": "Wood Ring"
+                                    "partName": "Ring"
                                 }
                             ],
                             "allConnectors": [
@@ -6787,7 +6787,7 @@
                                         {
                                             "atomType": "Input",
                                             "name": "Shape",
-                                            "x": 0.029699999999999997,
+                                            "x": 0.033,
                                             "y": 0.3788300835654596,
                                             "uniqueID": "86b1a2a0-dc0c-435a-9950-8c2aaba0d8b9",
                                             "ioValues": [],
@@ -6796,7 +6796,7 @@
                                         {
                                             "atomType": "Input",
                                             "name": "Number",
-                                            "x": 0.029699999999999997,
+                                            "x": 0.033,
                                             "y": 0.8440111420612814,
                                             "uniqueID": "53bf4571-9d58-42e6-b78a-9cde0543b7f1",
                                             "ioValues": [],
@@ -6805,7 +6805,7 @@
                                         {
                                             "atomType": "Input",
                                             "name": "Angle",
-                                            "x": 0.029699999999999997,
+                                            "x": 0.033,
                                             "y": 0.5821727019498607,
                                             "uniqueID": "7a67ba6d-066d-4612-bee1-49409e2741d5",
                                             "ioValues": [],
@@ -7184,8 +7184,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.7711640211640212,
-                    "y": 0.8798882681564246,
+                    "x": 0.7786206896551724,
+                    "y": 0.8994252873563219,
                     "uniqueID": 1738960642869,
                     "ioValues": [
                         {
@@ -7269,7 +7269,7 @@
                         {
                             "atomType": "Input",
                             "name": "Geometry",
-                            "x": 0.029699999999999997,
+                            "x": 0.033,
                             "y": 0.5335195530726257,
                             "uniqueID": 1739773901139,
                             "ioValues": [],
@@ -7279,7 +7279,7 @@
                         {
                             "atomType": "Input",
                             "name": "Wood Thickness",
-                            "x": 0.029699999999999997,
+                            "x": 0.033,
                             "y": 0.3044692737430168,
                             "uniqueID": 1739773929058,
                             "ioValues": [],
@@ -7322,7 +7322,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Geometry",
-                                    "x": 0.029699999999999997,
+                                    "x": 0.033,
                                     "y": 0.9331476323119776,
                                     "uniqueID": 1739774127060,
                                     "ioValues": [],
@@ -7331,7 +7331,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Wood Thickness",
-                                    "x": 0.029699999999999997,
+                                    "x": 0.033,
                                     "y": 0.34818941504178275,
                                     "uniqueID": 1739774126801,
                                     "ioValues": [],
@@ -7710,7 +7710,7 @@
                                         {
                                             "atomType": "Input",
                                             "name": "Wood Thickness",
-                                            "x": 0.029699999999999997,
+                                            "x": 0.033,
                                             "y": 0.5782122905027933,
                                             "uniqueID": "5a9ae9c0-4a7f-4dc7-b0cd-59a1f3669d4e",
                                             "ioValues": [],
@@ -7781,7 +7781,7 @@
                                                 {
                                                     "atomType": "Input",
                                                     "name": "Angle",
-                                                    "x": 0.029699999999999997,
+                                                    "x": 0.033,
                                                     "y": 0.5167597765363129,
                                                     "uniqueID": "b44e8586-b386-437c-8a09-bb9784a9cdab",
                                                     "ioValues": [],
@@ -7791,7 +7791,7 @@
                                                 {
                                                     "atomType": "Input",
                                                     "name": "Height",
-                                                    "x": 0.029699999999999997,
+                                                    "x": 0.033,
                                                     "y": 0.8016759776536313,
                                                     "uniqueID": "41f62f3b-d12a-4e84-92b4-58ef5d09fed7",
                                                     "ioValues": [],
@@ -7801,7 +7801,7 @@
                                                 {
                                                     "atomType": "Input",
                                                     "name": "Thickness",
-                                                    "x": 0.029699999999999997,
+                                                    "x": 0.033,
                                                     "y": 0.6703910614525139,
                                                     "uniqueID": "056b8fad-420b-4df6-99cb-827b0aec2a66",
                                                     "ioValues": [],
@@ -7929,7 +7929,7 @@
                                                 {
                                                     "atomType": "Input",
                                                     "name": "Shape",
-                                                    "x": 0.029699999999999997,
+                                                    "x": 0.033,
                                                     "y": 0.3788300835654596,
                                                     "uniqueID": "c300fb41-3f38-440d-bfd8-082f271f5cf8",
                                                     "ioValues": [],
@@ -7938,7 +7938,7 @@
                                                 {
                                                     "atomType": "Input",
                                                     "name": "Number",
-                                                    "x": 0.029699999999999997,
+                                                    "x": 0.033,
                                                     "y": 0.8440111420612814,
                                                     "uniqueID": "95bbd162-2229-4ac1-b55e-493ad2b02427",
                                                     "ioValues": [],
@@ -7947,7 +7947,7 @@
                                                 {
                                                     "atomType": "Input",
                                                     "name": "Angle",
-                                                    "x": 0.029699999999999997,
+                                                    "x": 0.033,
                                                     "y": 0.5821727019498607,
                                                     "uniqueID": "f3135280-7055-4f04-a0bd-9b3a0169d35f",
                                                     "ioValues": [],
@@ -8350,7 +8350,7 @@
                                         {
                                             "atomType": "Input",
                                             "name": "Geometry",
-                                            "x": 0.029699999999999997,
+                                            "x": 0.033,
                                             "y": 0.4916666666666667,
                                             "uniqueID": "ced64f9b-2556-4954-b084-d3164a865135",
                                             "ioValues": [],
@@ -9484,7 +9484,7 @@
                                         {
                                             "atomType": "Input",
                                             "name": "Geometry",
-                                            "x": 0.029699999999999997,
+                                            "x": 0.033,
                                             "y": 0.8941504178272981,
                                             "uniqueID": 1739990461403,
                                             "ioValues": [],
@@ -9493,7 +9493,7 @@
                                         {
                                             "atomType": "Input",
                                             "name": "Wood Thickness",
-                                            "x": 0.029699999999999997,
+                                            "x": 0.033,
                                             "y": 0.34818941504178275,
                                             "uniqueID": 1739990461433,
                                             "ioValues": [],
@@ -9502,7 +9502,7 @@
                                         {
                                             "atomType": "Input",
                                             "name": "Wood Thickness",
-                                            "x": 0.029699999999999997,
+                                            "x": 0.033,
                                             "y": 0.34818941504178275,
                                             "uniqueID": 1739990461660,
                                             "ioValues": [],
@@ -9656,7 +9656,7 @@
                                                 {
                                                     "atomType": "Input",
                                                     "name": "Number",
-                                                    "x": 0.029699999999999997,
+                                                    "x": 0.033,
                                                     "y": 0.32869080779944293,
                                                     "uniqueID": 1739990534950,
                                                     "ioValues": [],
@@ -9666,7 +9666,7 @@
                                                 {
                                                     "atomType": "Input",
                                                     "name": "Dist",
-                                                    "x": 0.029699999999999997,
+                                                    "x": 0.033,
                                                     "y": 0.6434540389972144,
                                                     "uniqueID": 1739990534935,
                                                     "ioValues": [],
@@ -9676,7 +9676,7 @@
                                                 {
                                                     "atomType": "Input",
                                                     "name": "Geometry",
-                                                    "x": 0.029699999999999997,
+                                                    "x": 0.033,
                                                     "y": 0.9108635097493036,
                                                     "uniqueID": 1739990535431,
                                                     "ioValues": [],
@@ -9821,7 +9821,7 @@
                                                 {
                                                     "atomType": "Input",
                                                     "name": "Number",
-                                                    "x": 0.029699999999999997,
+                                                    "x": 0.033,
                                                     "y": 0.32869080779944293,
                                                     "uniqueID": 1739990583539,
                                                     "ioValues": [],
@@ -9831,7 +9831,7 @@
                                                 {
                                                     "atomType": "Input",
                                                     "name": "Dist",
-                                                    "x": 0.029699999999999997,
+                                                    "x": 0.033,
                                                     "y": 0.6434540389972144,
                                                     "uniqueID": 1739990583486,
                                                     "ioValues": [],
@@ -9841,7 +9841,7 @@
                                                 {
                                                     "atomType": "Input",
                                                     "name": "Geometry",
-                                                    "x": 0.029699999999999997,
+                                                    "x": 0.033,
                                                     "y": 0.9108635097493036,
                                                     "uniqueID": 1739990582983,
                                                     "ioValues": [],
@@ -10130,7 +10130,7 @@
                                         {
                                             "atomType": "Input",
                                             "name": "Wood Thickness",
-                                            "x": 0.029699999999999997,
+                                            "x": 0.033,
                                             "y": 0.5055865921787709,
                                             "uniqueID": "1adee23d-4ad5-470a-a7a5-42a780b3e5e5",
                                             "ioValues": [],
@@ -10345,7 +10345,7 @@
                                         {
                                             "atomType": "Input",
                                             "name": "Wood Thickness",
-                                            "x": 0.029699999999999997,
+                                            "x": 0.033,
                                             "y": 0.49720670391061456,
                                             "uniqueID": "8beb3462-40fc-45c4-b3d4-30286fecbb47",
                                             "ioValues": [],
@@ -10355,7 +10355,7 @@
                                         {
                                             "atomType": "Input",
                                             "name": "Input Geometry",
-                                            "x": 0.029699999999999997,
+                                            "x": 0.033,
                                             "y": 0.1983240223463687,
                                             "uniqueID": "eae7a8b0-2e47-4180-9982-a7832fa42435",
                                             "ioValues": [],
@@ -10983,7 +10983,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Wood Thickness",
-                                    "x": 0.029699999999999997,
+                                    "x": 0.033,
                                     "y": 0.3966480446927374,
                                     "uniqueID": "f6e81609-66a3-4787-9222-bdc9ab38dab6",
                                     "ioValues": [],
@@ -11273,8 +11273,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Window Opening",
-                    "x": 0.031746031746031744,
-                    "y": 0.7318435754189945,
+                    "x": 0.034482758620689655,
+                    "y": 0.7528735632183908,
                     "uniqueID": 1741650496517,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -11496,8 +11496,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Sauna-Stove",
-                    "x": 0.6488095238095237,
-                    "y": 0.9217877094972066,
+                    "x": 0.6013793103448276,
+                    "y": 0.5057471264367817,
                     "uniqueID": 1748899778010,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -11896,7 +11896,7 @@
                                         {
                                             "atomType": "Input",
                                             "name": "Dist",
-                                            "x": 0.029699999999999997,
+                                            "x": 0.033,
                                             "y": 0.8743016759776536,
                                             "uniqueID": 1748896038613,
                                             "ioValues": [],
@@ -12413,7 +12413,7 @@
                                                         {
                                                             "atomType": "Input",
                                                             "name": "Number",
-                                                            "x": 0.029699999999999997,
+                                                            "x": 0.033,
                                                             "y": 0.32869080779944293,
                                                             "uniqueID": 1748896785812,
                                                             "ioValues": [],
@@ -12423,7 +12423,7 @@
                                                         {
                                                             "atomType": "Input",
                                                             "name": "Dist",
-                                                            "x": 0.029699999999999997,
+                                                            "x": 0.033,
                                                             "y": 0.6434540389972144,
                                                             "uniqueID": 1748896785432,
                                                             "ioValues": [],
@@ -12433,7 +12433,7 @@
                                                         {
                                                             "atomType": "Input",
                                                             "name": "Geometry",
-                                                            "x": 0.029699999999999997,
+                                                            "x": 0.033,
                                                             "y": 0.9108635097493036,
                                                             "uniqueID": 1748896785228,
                                                             "ioValues": [],
@@ -13220,7 +13220,7 @@
                                                 {
                                                     "atomType": "Input",
                                                     "name": "Width (X)",
-                                                    "x": 0.029699999999999997,
+                                                    "x": 0.033,
                                                     "y": 0.9078212290502793,
                                                     "uniqueID": 1748899072603,
                                                     "ioValues": [],
@@ -13230,7 +13230,7 @@
                                                 {
                                                     "atomType": "Input",
                                                     "name": "Length (Y)",
-                                                    "x": 0.029699999999999997,
+                                                    "x": 0.033,
                                                     "y": 0.729050279329609,
                                                     "uniqueID": 1748899072273,
                                                     "ioValues": [],
@@ -13240,7 +13240,7 @@
                                                 {
                                                     "atomType": "Input",
                                                     "name": "Geometry",
-                                                    "x": 0.029699999999999997,
+                                                    "x": 0.033,
                                                     "y": 0.36312849162011174,
                                                     "uniqueID": 1748899073051,
                                                     "ioValues": [],
@@ -13850,7 +13850,7 @@
                         {
                             "atomType": "Input",
                             "name": "Envlope",
-                            "x": 0.029699999999999997,
+                            "x": 0.033,
                             "y": 0.6005586592178771,
                             "uniqueID": "01ed7e95-e78a-41fa-8150-170354547fc1",
                             "ioValues": [],
@@ -13889,7 +13889,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Envlope",
-                                    "x": 0.029699999999999997,
+                                    "x": 0.033,
                                     "y": 0.6005586592178771,
                                     "uniqueID": "3ebfa99d-cbca-4374-be58-064cd2931d48",
                                     "ioValues": [],
@@ -14249,7 +14249,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Number",
-                                    "x": 0.029699999999999997,
+                                    "x": 0.033,
                                     "y": 0.32869080779944293,
                                     "uniqueID": "707b6a38-d225-4964-ada0-1b0704821bf5",
                                     "ioValues": [],
@@ -14259,7 +14259,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Dist",
-                                    "x": 0.029699999999999997,
+                                    "x": 0.033,
                                     "y": 0.6434540389972144,
                                     "uniqueID": "b0b2fe36-3c4a-4e33-b202-d0cb8bfe5fe9",
                                     "ioValues": [],
@@ -14269,7 +14269,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Geometry",
-                                    "x": 0.029699999999999997,
+                                    "x": 0.033,
                                     "y": 0.9108635097493036,
                                     "uniqueID": "3969a2d1-99e3-4d5e-a5df-2f3f2d155080",
                                     "ioValues": [],
@@ -14454,7 +14454,7 @@
                         {
                             "atomType": "Input",
                             "name": "Wood Thickness",
-                            "x": 0.029699999999999997,
+                            "x": 0.033,
                             "y": 0.8463687150837989,
                             "uniqueID": "97dc5429-588b-45a3-be87-783ac7f561a4",
                             "ioValues": [],
@@ -14667,7 +14667,7 @@
                 {
                     "atomType": "Input",
                     "name": "Wood Thickness",
-                    "x": 0.029699999999999997,
+                    "x": 0.033,
                     "y": 0.9608938547486033,
                     "uniqueID": "26ed2bbe-d151-4caf-acaa-8eb6ba364041",
                     "ioValues": [],
@@ -14695,8 +14695,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.6494708994708994,
-                    "y": 0.21508379888268153,
+                    "x": 0.74,
+                    "y": 0.3218390804597701,
                     "uniqueID": "2ede00f0-ba12-4a6b-8ffb-f770367f92cc",
                     "ioValues": [
                         {
@@ -14911,8 +14911,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.3802910052910053,
-            "y": 0.38718662952646243,
+            "x": 0.38758620689655177,
+            "y": 0.3879310344827586,
             "uniqueID": 1738956922193,
             "ioValues": [
                 {
@@ -14958,7 +14958,7 @@
                 {
                     "atomType": "Input",
                     "name": "Sauna",
-                    "x": 0.029699999999999997,
+                    "x": 0.033,
                     "y": 0.6740947075208913,
                     "uniqueID": 1740179214986,
                     "ioValues": [],
