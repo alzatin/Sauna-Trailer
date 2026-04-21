@@ -4,6 +4,13 @@
   "y": 0,
   "uniqueID": 1738956146212,
   "name": "Sauna-Trailer",
+  "ioValues": [
+    {
+      "name": "wthick",
+      "ioValue": 12,
+      "currentEquation": "12"
+    }
+  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -1242,8 +1249,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.19973544973544974,
-      "y": 0.2785515320334262,
+      "x": 0.19439579684763572,
+      "y": 0.32238805970149254,
       "uniqueID": 1738956163132,
       "name": "Trailer",
       "topLevel": false,
@@ -3225,14 +3232,15 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.23992994746059543,
-      "y": 0.6865671641791045,
+      "x": 0.223292469352014,
+      "y": 0.6895522388059702,
       "uniqueID": 1738956170299,
       "name": "Sauna",
       "ioValues": [
         {
           "name": "Wood Thickness",
-          "ioValue": 12
+          "ioValue": 12,
+          "currentEquation": "wthick"
         }
       ],
       "topLevel": false,
@@ -3965,8 +3973,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.2819614711033275,
-          "y": 0.16417910447761194,
+          "x": 0.2830687830687831,
+          "y": 0.14763231197771587,
           "uniqueID": "912e598d-23d3-429e-9e08-ab5f4ac3b768",
           "name": "Shiplap Walls",
           "ioValues": [
@@ -4510,8 +4518,8 @@
             },
             {
               "atomType": "GitHubMolecule",
-              "x": 0.2863397548161121,
-              "y": 0.5044776119402985,
+              "x": 0.25925925925925924,
+              "y": 0.5139664804469274,
               "uniqueID": "b4234f0c-9386-48b4-943e-f0668b12cf11",
               "name": "Linear-Pattern",
               "ioValues": [
@@ -12927,7 +12935,7 @@
                         {
                           "name": "Shape 1",
                           "ioValue": {
-                            "geometry": "move-move-extrude-rectangle-24-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12--806-0-0",
+                            "geometry": "move-move-extrude-rectangle-20-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12--806-0-0",
                             "dimension": "3D",
                             "plane": {
                               "origin": [
@@ -12954,7 +12962,7 @@
                         {
                           "name": "Shape 2",
                           "ioValue": {
-                            "geometry": "move-move-extrude-rectangle-24-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12--1209-0-0",
+                            "geometry": "move-move-extrude-rectangle-20-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12--1209-0-0",
                             "dimension": "3D",
                             "plane": {
                               "origin": [
@@ -12981,7 +12989,7 @@
                         {
                           "name": "Shape 3",
                           "ioValue": {
-                            "geometry": "move-move-extrude-rectangle-24-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12--403-0-0",
+                            "geometry": "move-move-extrude-rectangle-20-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12--403-0-0",
                             "dimension": "3D",
                             "plane": {
                               "origin": [
@@ -13008,7 +13016,7 @@
                         {
                           "name": "Shape 4",
                           "ioValue": {
-                            "geometry": "move-extrude-rectangle-24-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12",
+                            "geometry": "move-extrude-rectangle-20-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12",
                             "dimension": "3D",
                             "plane": {
                               "origin": [
@@ -13035,7 +13043,7 @@
                         {
                           "name": "Shape 5",
                           "ioValue": {
-                            "geometry": "move-move-extrude-rectangle-24-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12-403-0-0",
+                            "geometry": "move-move-extrude-rectangle-20-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12-403-0-0",
                             "dimension": "3D",
                             "plane": {
                               "origin": [
@@ -13062,7 +13070,7 @@
                         {
                           "name": "Shape 6",
                           "ioValue": {
-                            "geometry": "move-move-extrude-rectangle-24-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12-1209-0-0",
+                            "geometry": "move-move-extrude-rectangle-20-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12-1209-0-0",
                             "dimension": "3D",
                             "plane": {
                               "origin": [
@@ -13089,7 +13097,7 @@
                         {
                           "name": "Shape 7",
                           "ioValue": {
-                            "geometry": "move-move-extrude-rectangle-24-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12-806-0-0",
+                            "geometry": "move-move-extrude-rectangle-20-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12-806-0-0",
                             "dimension": "3D",
                             "plane": {
                               "origin": [
@@ -13116,7 +13124,7 @@
                         {
                           "name": "Shape 8",
                           "ioValue": {
-                            "geometry": "move-move-extrude-rectangle-24-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12--1250.46-0-0",
+                            "geometry": "move-move-extrude-rectangle-20-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12--1250.46-0-0",
                             "dimension": "3D",
                             "plane": {
                               "origin": [
@@ -13143,7 +13151,7 @@
                         {
                           "name": "Shape 9",
                           "ioValue": {
-                            "geometry": "move-move-extrude-rectangle-24-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12-1250.46-0-0",
+                            "geometry": "move-move-extrude-rectangle-20-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12-1250.46-0-0",
                             "dimension": "3D",
                             "plane": {
                               "origin": [
@@ -45064,6 +45072,13 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.3373134328358209,
+      "uniqueID": "id-123746",
+      "name": "wthick"
     }
   ],
   "allConnectors": [
