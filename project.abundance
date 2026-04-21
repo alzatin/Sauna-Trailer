@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "wthick",
-      "ioValue": 12,
-      "currentEquation": "12"
+      "ioValue": 12
     }
   ],
   "topLevel": true,
@@ -55,6 +54,13 @@
       ],
       "tag": "Sauna",
       "tagIndex": 0
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.15384615384615385,
+      "uniqueID": "id-123746",
+      "name": "wthick"
     },
     {
       "atomType": "GitHubMolecule",
@@ -311,8 +317,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.458994708994709,
-      "y": 0.8495821727019498,
+      "x": 0.48308525033829497,
+      "y": 0.7439024390243902,
       "uniqueID": "id-30951",
       "name": "Cross-Section",
       "ioValues": [
@@ -3232,8 +3238,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.223292469352014,
-      "y": 0.6895522388059702,
+      "x": 0.22259810554803788,
+      "y": 0.7164634146341463,
       "uniqueID": 1738956170299,
       "name": "Sauna",
       "ioValues": [
@@ -3283,8 +3289,8 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.32341269841269843,
-          "y": 0.5181058495821727,
+          "x": 0.3234100135317997,
+          "y": 0.5152439024390244,
           "uniqueID": 1738958842644,
           "ioValues": [
             {
@@ -3455,8 +3461,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.6507936507936508,
-          "y": 0.25348189415041783,
+          "x": 0.645466847090663,
+          "y": 0.2530487804878049,
           "uniqueID": "2ede00f0-ba12-4a6b-8ffb-f770367f92cc",
           "ioValues": [
             {
@@ -3973,8 +3979,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.2830687830687831,
-          "y": 0.14763231197771587,
+          "x": 0.28755074424898514,
+          "y": 0.17073170731707318,
           "uniqueID": "912e598d-23d3-429e-9e08-ab5f4ac3b768",
           "name": "Shiplap Walls",
           "ioValues": [
@@ -4559,10 +4565,6 @@
                     {
                       "name": "Dist",
                       "ioValue": 107.47
-                    },
-                    {
-                      "name": "Shape",
-                      "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ],
                   "codeVersion": 1,
@@ -5286,11 +5288,11 @@
                       "ioValues": [
                         {
                           "name": "thickness",
-                          "ioValue": "__GEOMETRY_INPUT__"
+                          "ioValue": 2438.4
                         },
                         {
                           "name": "numBumps",
-                          "ioValue": "__GEOMETRY_INPUT__"
+                          "ioValue": 79
                         }
                       ],
                       "codeVersion": 1,
@@ -7667,10 +7669,6 @@
                         {
                           "name": "Angle",
                           "ioValue": 60
-                        },
-                        {
-                          "name": "Shape",
-                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -9591,10 +9589,6 @@
                             {
                               "name": "Angle",
                               "ioValue": 90
-                            },
-                            {
-                              "name": "Shape",
-                              "ioValue": "__GEOMETRY_INPUT__"
                             }
                           ],
                           "codeVersion": 1,
@@ -10122,15 +10116,15 @@
                           "ioValues": [
                             {
                               "name": "angle",
-                              "ioValue": "__GEOMETRY_INPUT__"
+                              "ioValue": 70
                             },
                             {
                               "name": "height",
-                              "ioValue": "__GEOMETRY_INPUT__"
+                              "ioValue": 2000
                             },
                             {
                               "name": "thickness",
-                              "ioValue": "__GEOMETRY_INPUT__"
+                              "ioValue": 100
                             }
                           ],
                           "codeVersion": 1,
@@ -10415,8 +10409,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.32407407407407407,
-          "y": 0.8022284122562675,
+          "x": 0.3227334235453315,
+          "y": 0.801829268292683,
           "uniqueID": 1739773891659,
           "name": "Split Apart",
           "ioValues": [
@@ -11410,10 +11404,6 @@
                             {
                               "name": "Angle",
                               "ioValue": 45
-                            },
-                            {
-                              "name": "Shape",
-                              "ioValue": "__GEOMETRY_INPUT__"
                             }
                           ],
                           "codeVersion": 1,
@@ -12935,7 +12925,7 @@
                         {
                           "name": "Shape 1",
                           "ioValue": {
-                            "geometry": "move-move-extrude-rectangle-20-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12--806-0-0",
+                            "geometry": "move-move-extrude-rectangle-24-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12--806-0-0",
                             "dimension": "3D",
                             "plane": {
                               "origin": [
@@ -12962,7 +12952,7 @@
                         {
                           "name": "Shape 2",
                           "ioValue": {
-                            "geometry": "move-move-extrude-rectangle-20-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12--1209-0-0",
+                            "geometry": "move-move-extrude-rectangle-24-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12--1209-0-0",
                             "dimension": "3D",
                             "plane": {
                               "origin": [
@@ -12989,7 +12979,7 @@
                         {
                           "name": "Shape 3",
                           "ioValue": {
-                            "geometry": "move-move-extrude-rectangle-20-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12--403-0-0",
+                            "geometry": "move-move-extrude-rectangle-24-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12--403-0-0",
                             "dimension": "3D",
                             "plane": {
                               "origin": [
@@ -13016,7 +13006,7 @@
                         {
                           "name": "Shape 4",
                           "ioValue": {
-                            "geometry": "move-extrude-rectangle-20-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12",
+                            "geometry": "move-extrude-rectangle-24-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12",
                             "dimension": "3D",
                             "plane": {
                               "origin": [
@@ -13043,7 +13033,7 @@
                         {
                           "name": "Shape 5",
                           "ioValue": {
-                            "geometry": "move-move-extrude-rectangle-20-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12-403-0-0",
+                            "geometry": "move-move-extrude-rectangle-24-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12-403-0-0",
                             "dimension": "3D",
                             "plane": {
                               "origin": [
@@ -13070,7 +13060,7 @@
                         {
                           "name": "Shape 6",
                           "ioValue": {
-                            "geometry": "move-move-extrude-rectangle-20-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12-1209-0-0",
+                            "geometry": "move-move-extrude-rectangle-24-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12-1209-0-0",
                             "dimension": "3D",
                             "plane": {
                               "origin": [
@@ -13097,7 +13087,7 @@
                         {
                           "name": "Shape 7",
                           "ioValue": {
-                            "geometry": "move-move-extrude-rectangle-20-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12-806-0-0",
+                            "geometry": "move-move-extrude-rectangle-24-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12-806-0-0",
                             "dimension": "3D",
                             "plane": {
                               "origin": [
@@ -13124,7 +13114,7 @@
                         {
                           "name": "Shape 8",
                           "ioValue": {
-                            "geometry": "move-move-extrude-rectangle-20-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12--1250.46-0-0",
+                            "geometry": "move-move-extrude-rectangle-24-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12--1250.46-0-0",
                             "dimension": "3D",
                             "plane": {
                               "origin": [
@@ -13151,7 +13141,7 @@
                         {
                           "name": "Shape 9",
                           "ioValue": {
-                            "geometry": "move-move-extrude-rectangle-20-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12-1250.46-0-0",
+                            "geometry": "move-move-extrude-rectangle-24-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-24-0-50--12-1250.46-0-0",
                             "dimension": "3D",
                             "plane": {
                               "origin": [
@@ -13624,15 +13614,15 @@
                           "ioValues": [
                             {
                               "name": "Shape",
-                              "ioValue": "__GEOMETRY_INPUT__"
+                              "ioValue": 10
                             },
                             {
                               "name": "Number",
-                              "ioValue": "__GEOMETRY_INPUT__"
+                              "ioValue": 4
                             },
                             {
                               "name": "Dist",
-                              "ioValue": "__GEOMETRY_INPUT__"
+                              "ioValue": 800
                             }
                           ],
                           "codeVersion": 1,
@@ -13768,10 +13758,6 @@
                             {
                               "name": "Dist",
                               "ioValue": 800
-                            },
-                            {
-                              "name": "Shape",
-                              "ioValue": "__GEOMETRY_INPUT__"
                             }
                           ],
                           "codeVersion": 1,
@@ -18255,10 +18241,6 @@
                             {
                               "name": "radius",
                               "ioValue": 3
-                            },
-                            {
-                              "name": "inputShape",
-                              "ioValue": "__GEOMETRY_INPUT__"
                             }
                           ],
                           "codeVersion": 1,
@@ -25576,10 +25558,6 @@
                                 {
                                   "name": "radius",
                                   "ioValue": 5
-                                },
-                                {
-                                  "name": "inputShape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -28015,10 +27993,6 @@
                         {
                           "name": "distZ",
                           "ioValue": 0
-                        },
-                        {
-                          "name": "Shape",
-                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -29961,10 +29935,6 @@
                         {
                           "name": "distZ",
                           "ioValue": 0
-                        },
-                        {
-                          "name": "Shape",
-                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -30030,10 +30000,6 @@
                         {
                           "name": "distZ",
                           "ioValue": 0
-                        },
-                        {
-                          "name": "Shape",
-                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -30351,6 +30317,10 @@
                             {
                               "name": "distZ",
                               "ioValue": 0
+                            },
+                            {
+                              "name": "Shape",
+                              "ioValue": "__GEOMETRY_INPUT__"
                             }
                           ],
                           "codeVersion": 1,
@@ -30416,10 +30386,6 @@
                             {
                               "name": "distZ",
                               "ioValue": 0
-                            },
-                            {
-                              "name": "Shape",
-                              "ioValue": "__GEOMETRY_INPUT__"
                             }
                           ],
                           "codeVersion": 1,
@@ -31487,24 +31453,16 @@
                               "uniqueID": "id-118288",
                               "ioValues": [
                                 {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
-                                },
-                                {
-                                  "name": "Number",
-                                  "ioValue": "__GEOMETRY_INPUT__"
-                                },
-                                {
                                   "name": "distX",
-                                  "ioValue": "__GEOMETRY_INPUT__"
+                                  "ioValue": 40
                                 },
                                 {
                                   "name": "distY",
-                                  "ioValue": "__GEOMETRY_INPUT__"
+                                  "ioValue": 0
                                 },
                                 {
                                   "name": "distZ",
-                                  "ioValue": "__GEOMETRY_INPUT__"
+                                  "ioValue": 0
                                 }
                               ],
                               "codeVersion": 1,
@@ -31570,10 +31528,6 @@
                                 {
                                   "name": "distZ",
                                   "ioValue": 0
-                                },
-                                {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -31747,24 +31701,20 @@
                               "uniqueID": "id-118300",
                               "ioValues": [
                                 {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
-                                },
-                                {
                                   "name": "Number",
-                                  "ioValue": "__GEOMETRY_INPUT__"
+                                  "ioValue": 4.1875
                                 },
                                 {
                                   "name": "distX",
-                                  "ioValue": "__GEOMETRY_INPUT__"
+                                  "ioValue": 0
                                 },
                                 {
                                   "name": "distY",
-                                  "ioValue": "__GEOMETRY_INPUT__"
+                                  "ioValue": 70
                                 },
                                 {
                                   "name": "distZ",
-                                  "ioValue": "__GEOMETRY_INPUT__"
+                                  "ioValue": 0
                                 }
                               ],
                               "codeVersion": 1,
@@ -31830,10 +31780,6 @@
                                 {
                                   "name": "distZ",
                                   "ioValue": 0
-                                },
-                                {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -32007,24 +31953,20 @@
                               "uniqueID": "id-118312",
                               "ioValues": [
                                 {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
-                                },
-                                {
                                   "name": "Number",
-                                  "ioValue": "__GEOMETRY_INPUT__"
+                                  "ioValue": 4.1875
                                 },
                                 {
                                   "name": "distX",
-                                  "ioValue": "__GEOMETRY_INPUT__"
+                                  "ioValue": 0
                                 },
                                 {
                                   "name": "distY",
-                                  "ioValue": "__GEOMETRY_INPUT__"
+                                  "ioValue": 70
                                 },
                                 {
                                   "name": "distZ",
-                                  "ioValue": "__GEOMETRY_INPUT__"
+                                  "ioValue": 0
                                 }
                               ],
                               "codeVersion": 1,
@@ -32090,10 +32032,6 @@
                                 {
                                   "name": "distZ",
                                   "ioValue": 0
-                                },
-                                {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -38196,24 +38134,20 @@
                               "uniqueID": "id-81000",
                               "ioValues": [
                                 {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
-                                },
-                                {
                                   "name": "Number",
-                                  "ioValue": "__GEOMETRY_INPUT__"
+                                  "ioValue": 4
                                 },
                                 {
                                   "name": "distX",
-                                  "ioValue": "__GEOMETRY_INPUT__"
+                                  "ioValue": 0
                                 },
                                 {
                                   "name": "distY",
-                                  "ioValue": "__GEOMETRY_INPUT__"
+                                  "ioValue": 114.3
                                 },
                                 {
                                   "name": "distZ",
-                                  "ioValue": "__GEOMETRY_INPUT__"
+                                  "ioValue": 0
                                 }
                               ],
                               "codeVersion": 1,
@@ -38279,10 +38213,6 @@
                                 {
                                   "name": "distZ",
                                   "ioValue": 0
-                                },
-                                {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -38469,16 +38399,12 @@
                               "uniqueID": "id-81133",
                               "ioValues": [
                                 {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
-                                },
-                                {
                                   "name": "Number",
-                                  "ioValue": "__GEOMETRY_INPUT__"
+                                  "ioValue": 4
                                 },
                                 {
                                   "name": "Angle",
-                                  "ioValue": "__GEOMETRY_INPUT__"
+                                  "ioValue": 90
                                 }
                               ],
                               "codeVersion": 1,
@@ -44445,10 +44371,6 @@
                                     {
                                       "name": "Dist",
                                       "ioValue": 25
-                                    },
-                                    {
-                                      "name": "Shape",
-                                      "ioValue": "__GEOMETRY_INPUT__"
                                     }
                                   ],
                                   "codeVersion": 1,
@@ -45072,13 +44994,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.3373134328358209,
-      "uniqueID": "id-123746",
-      "name": "wthick"
     }
   ],
   "allConnectors": [
