@@ -4565,6 +4565,10 @@
                     {
                       "name": "Dist",
                       "ioValue": 107.47
+                    },
+                    {
+                      "name": "Shape",
+                      "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ],
                   "codeVersion": 1,
@@ -7669,10 +7673,6 @@
                         {
                           "name": "Angle",
                           "ioValue": 60
-                        },
-                        {
-                          "name": "Shape",
-                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -9593,10 +9593,6 @@
                             {
                               "name": "Angle",
                               "ioValue": 90
-                            },
-                            {
-                              "name": "Shape",
-                              "ioValue": "__GEOMETRY_INPUT__"
                             }
                           ],
                           "codeVersion": 1,
@@ -10502,14 +10498,14 @@
                 {
                   "atomType": "Input",
                   "x": 0.025384615384615384,
-                  "y": 0.15853658536585366,
+                  "y": 0.15384615384615385,
                   "uniqueID": 1739774127060,
                   "name": "Geometry"
                 },
                 {
                   "atomType": "Input",
                   "x": 0.025384615384615384,
-                  "y": 0.34146341463414637,
+                  "y": 0.24615384615384617,
                   "uniqueID": 1739774126801,
                   "name": "Wood Thickness"
                 },
@@ -11412,10 +11408,6 @@
                             {
                               "name": "Angle",
                               "ioValue": 45
-                            },
-                            {
-                              "name": "Shape",
-                              "ioValue": "__GEOMETRY_INPUT__"
                             }
                           ],
                           "codeVersion": 1,
@@ -13770,10 +13762,6 @@
                             {
                               "name": "Dist",
                               "ioValue": 800
-                            },
-                            {
-                              "name": "Shape",
-                              "ioValue": "__GEOMETRY_INPUT__"
                             }
                           ],
                           "codeVersion": 1,
@@ -18257,10 +18245,6 @@
                             {
                               "name": "radius",
                               "ioValue": 3
-                            },
-                            {
-                              "name": "inputShape",
-                              "ioValue": "__GEOMETRY_INPUT__"
                             }
                           ],
                           "codeVersion": 1,
@@ -25578,10 +25562,6 @@
                                 {
                                   "name": "radius",
                                   "ioValue": 5
-                                },
-                                {
-                                  "name": "inputShape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -28017,10 +27997,6 @@
                         {
                           "name": "distZ",
                           "ioValue": 0
-                        },
-                        {
-                          "name": "Shape",
-                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -29963,10 +29939,6 @@
                         {
                           "name": "distZ",
                           "ioValue": 0
-                        },
-                        {
-                          "name": "Shape",
-                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -30032,10 +30004,6 @@
                         {
                           "name": "distZ",
                           "ioValue": 0
-                        },
-                        {
-                          "name": "Shape",
-                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -30353,6 +30321,10 @@
                             {
                               "name": "distZ",
                               "ioValue": 0
+                            },
+                            {
+                              "name": "Shape",
+                              "ioValue": "__GEOMETRY_INPUT__"
                             }
                           ],
                           "codeVersion": 1,
@@ -30418,10 +30390,6 @@
                             {
                               "name": "distZ",
                               "ioValue": 0
-                            },
-                            {
-                              "name": "Shape",
-                              "ioValue": "__GEOMETRY_INPUT__"
                             }
                           ],
                           "codeVersion": 1,
@@ -31499,14 +31467,6 @@
                                 {
                                   "name": "distZ",
                                   "ioValue": 0
-                                },
-                                {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
-                                },
-                                {
-                                  "name": "Number",
-                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -31572,10 +31532,6 @@
                                 {
                                   "name": "distZ",
                                   "ioValue": 0
-                                },
-                                {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -31763,10 +31719,6 @@
                                 {
                                   "name": "distZ",
                                   "ioValue": 0
-                                },
-                                {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -31832,10 +31784,6 @@
                                 {
                                   "name": "distZ",
                                   "ioValue": 0
-                                },
-                                {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -32023,10 +31971,6 @@
                                 {
                                   "name": "distZ",
                                   "ioValue": 0
-                                },
-                                {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -32092,10 +32036,6 @@
                                 {
                                   "name": "distZ",
                                   "ioValue": 0
-                                },
-                                {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -38212,10 +38152,6 @@
                                 {
                                   "name": "distZ",
                                   "ioValue": 0
-                                },
-                                {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -38281,10 +38217,6 @@
                                 {
                                   "name": "distZ",
                                   "ioValue": 0
-                                },
-                                {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -38477,10 +38409,6 @@
                                 {
                                   "name": "Angle",
                                   "ioValue": 90
-                                },
-                                {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -44447,10 +44375,6 @@
                                     {
                                       "name": "Dist",
                                       "ioValue": 25
-                                    },
-                                    {
-                                      "name": "Shape",
-                                      "ioValue": "__GEOMETRY_INPUT__"
                                     }
                                   ],
                                   "codeVersion": 1,
