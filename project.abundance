@@ -10417,11 +10417,15 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.35696821515892424,
-          "y": 0.7652439024390244,
+          "x": 0.35700197238658776,
+          "y": 0.7774390243902438,
           "uniqueID": 1739773891659,
           "name": "Split Apart",
           "ioValues": [
+            {
+              "name": "Geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
             {
               "name": "Wood Thickness",
               "ioValue": 12
@@ -10447,7 +10451,7 @@
               "y": 0.15384615384615385,
               "uniqueID": 1739773901139,
               "name": "Geometry",
-              "type": "number"
+              "type": "geometry"
             },
             {
               "atomType": "Input",
@@ -10459,8 +10463,8 @@
             },
             {
               "atomType": "Assembly",
-              "x": 0.39285714285714285,
-              "y": 0.5125348189415042,
+              "x": 0.5424063116370809,
+              "y": 0.46646341463414637,
               "uniqueID": 1739774227831,
               "ioValues": [
                 {
