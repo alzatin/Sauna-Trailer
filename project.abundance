@@ -3238,8 +3238,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.22090729783037474,
-      "y": 0.6951219512195121,
+      "x": 0.22499999999999998,
+      "y": 0.7225609756097561,
       "uniqueID": 1738956170299,
       "name": "Sauna",
       "ioValues": [
@@ -4565,6 +4565,10 @@
                     {
                       "name": "Dist",
                       "ioValue": 107.47
+                    },
+                    {
+                      "name": "Shape",
+                      "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ],
                   "codeVersion": 1,
@@ -7669,10 +7673,6 @@
                         {
                           "name": "Angle",
                           "ioValue": 60
-                        },
-                        {
-                          "name": "Shape",
-                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -9593,10 +9593,6 @@
                             {
                               "name": "Angle",
                               "ioValue": 90
-                            },
-                            {
-                              "name": "Shape",
-                              "ioValue": "__GEOMETRY_INPUT__"
                             }
                           ],
                           "codeVersion": 1,
@@ -11416,10 +11412,6 @@
                             {
                               "name": "Angle",
                               "ioValue": 45
-                            },
-                            {
-                              "name": "Shape",
-                              "ioValue": "__GEOMETRY_INPUT__"
                             }
                           ],
                           "codeVersion": 1,
@@ -12624,8 +12616,8 @@
                 },
                 {
                   "atomType": "Molecule",
-                  "x": 0.3472222222222222,
-                  "y": 0.6508379888268156,
+                  "x": 0.37777777777777777,
+                  "y": 0.3170731707317073,
                   "uniqueID": "03cec89d-33bc-4a0d-92a1-f606c13d25cc",
                   "name": "Notches",
                   "ioValues": [
@@ -13427,8 +13419,8 @@
                 },
                 {
                   "atomType": "Molecule",
-                  "x": 0.09259259259259259,
-                  "y": 0.24581005586592178,
+                  "x": 0.09537037037037037,
+                  "y": 0.23170731707317072,
                   "uniqueID": "b4672346-46a5-4886-926a-f6c714b5ea23",
                   "name": "Base Piece",
                   "ioValues": [
@@ -13526,8 +13518,8 @@
                     },
                     {
                       "atomType": "Tag",
-                      "x": 0.5026455026455027,
-                      "y": 0.4776536312849162,
+                      "x": 0.4074074074074074,
+                      "y": 0.5396341463414634,
                       "uniqueID": 1739990510761,
                       "name": "Horizontal",
                       "ioValues": [
@@ -13566,8 +13558,8 @@
                     },
                     {
                       "atomType": "Rotate",
-                      "x": 0.7123015873015873,
-                      "y": 0.3231197771587744,
+                      "x": 0.6472222222222223,
+                      "y": 0.4725609756097561,
                       "uniqueID": 1739990727374,
                       "ioValues": [
                         {
@@ -13590,151 +13582,8 @@
                     },
                     {
                       "atomType": "GitHubMolecule",
-                      "x": 0.6203703703703703,
-                      "y": 0.8212290502793296,
-                      "uniqueID": 1739990535381,
-                      "name": "Linear-Pattern",
-                      "ioValues": [
-                        {
-                          "name": "Number",
-                          "ioValue": 4
-                        },
-                        {
-                          "name": "Dist",
-                          "ioValue": 800
-                        },
-                        {
-                          "name": "Geometry",
-                          "ioValue": 10
-                        }
-                      ],
-                      "topLevel": false,
-                      "allAtoms": [
-                        {
-                          "atomType": "Output",
-                          "x": 0.98,
-                          "y": 0.5,
-                          "uniqueID": 1739990534991,
-                          "ioValues": [
-                            {
-                              "name": "number or geometry",
-                              "ioValue": "__GEOMETRY_INPUT__"
-                            }
-                          ]
-                        },
-                        {
-                          "atomType": "Code",
-                          "x": 0.5112433862433863,
-                          "y": 0.4345403899721449,
-                          "uniqueID": 1739990534755,
-                          "ioValues": [
-                            {
-                              "name": "Shape",
-                              "ioValue": 10
-                            },
-                            {
-                              "name": "Number",
-                              "ioValue": 4
-                            },
-                            {
-                              "name": "Dist",
-                              "ioValue": 800
-                            }
-                          ],
-                          "codeVersion": 1,
-                          "code": "//Inputs:[Shape, Number, Dist];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Move(Shape, Dist * i, 0, 0);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
-                        },
-                        {
-                          "atomType": "Rectangle",
-                          "x": 0.27976190476190477,
-                          "y": 0.2116991643454039,
-                          "uniqueID": 1739990534751,
-                          "ioValues": [
-                            {
-                              "name": "x length",
-                              "ioValue": 10
-                            },
-                            {
-                              "name": "y length",
-                              "ioValue": 10
-                            }
-                          ]
-                        },
-                        {
-                          "atomType": "Input",
-                          "x": 0.025384615384615384,
-                          "y": 0.15384615384615385,
-                          "uniqueID": 1739990534950,
-                          "name": "Number",
-                          "type": "number"
-                        },
-                        {
-                          "atomType": "Input",
-                          "x": 0.025384615384615384,
-                          "y": 0.24615384615384617,
-                          "uniqueID": 1739990534935,
-                          "name": "Dist",
-                          "type": "number"
-                        },
-                        {
-                          "atomType": "Input",
-                          "x": 0.025384615384615384,
-                          "y": 0.3384615384615385,
-                          "uniqueID": 1739990535431,
-                          "name": "Geometry",
-                          "type": "number"
-                        }
-                      ],
-                      "allConnectors": [
-                        {
-                          "ap2Name": "number or geometry",
-                          "ap1ID": 1739990534755,
-                          "ap2ID": 1739990534991
-                        },
-                        {
-                          "ap2Name": "Number",
-                          "ap1ID": 1739990534950,
-                          "ap2ID": 1739990534755
-                        },
-                        {
-                          "ap2Name": "Dist",
-                          "ap1ID": 1739990534935,
-                          "ap2ID": 1739990534755
-                        },
-                        {
-                          "ap2Name": "Shape",
-                          "ap1ID": 1739990535431,
-                          "ap2ID": 1739990534755
-                        }
-                      ],
-                      "parentRepo": {
-                        "lastFoundGit": "2025-02-19T15:47:14.577Z",
-                        "privateRepo": false,
-                        "repoName": "Linear-Pattern",
-                        "dateCreated": "2025-02-19T00:40:13Z",
-                        "readMe": "https://raw.githubusercontent.com/BarbourSmith/Linear-Pattern/master/README.md?sanitize=true",
-                        "yyyy": 2025,
-                        "topMoleculeID": 1739925613779,
-                        "githubMoleculesUsed": [],
-                        "html_url": "https://github.com/BarbourSmith/Linear-Pattern",
-                        "topics": [],
-                        "parentRepo": null,
-                        "forks": 0,
-                        "dateModified": "739301",
-                        "ranking": 0,
-                        "searchField": "linear-pattern barboursmith returns the input shape formed into an assembly translated n times ",
-                        "owner": "BarbourSmith",
-                        "description": "Returns the input shape formed into an assembly translated n times",
-                        "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Linear-Pattern/master/project.abundance?sanitize=true",
-                        "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Linear-Pattern/master/project.svg?sanitize=true"
-                      },
-                      "unitsKey": "MM",
-                      "fileTypeVersion": 1
-                    },
-                    {
-                      "atomType": "GitHubMolecule",
-                      "x": 0.794973544973545,
-                      "y": 0.5670391061452513,
+                      "x": 0.7342592592592593,
+                      "y": 0.6341463414634146,
                       "uniqueID": 1739990582881,
                       "name": "Linear-Pattern",
                       "ioValues": [
@@ -13774,10 +13623,6 @@
                             {
                               "name": "Dist",
                               "ioValue": 800
-                            },
-                            {
-                              "name": "Shape",
-                              "ioValue": "__GEOMETRY_INPUT__"
                             }
                           ],
                           "codeVersion": 1,
@@ -18261,10 +18106,6 @@
                             {
                               "name": "radius",
                               "ioValue": 3
-                            },
-                            {
-                              "name": "inputShape",
-                              "ioValue": "__GEOMETRY_INPUT__"
                             }
                           ],
                           "codeVersion": 1,
@@ -25582,10 +25423,6 @@
                                 {
                                   "name": "radius",
                                   "ioValue": 5
-                                },
-                                {
-                                  "name": "inputShape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -27024,8 +26861,8 @@
         },
         {
           "atomType": "GitHubMolecule",
-          "x": 0.4212962962962963,
-          "y": 0.5030487804878049,
+          "x": 0.4111111111111111,
+          "y": 0.4969512195121951,
           "uniqueID": "id-142135",
           "name": "Trailer_Bench",
           "ioValues": [
@@ -28005,10 +27842,6 @@
                         {
                           "name": "distZ",
                           "ioValue": 0
-                        },
-                        {
-                          "name": "Shape",
-                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -29952,10 +29785,6 @@
                         {
                           "name": "distZ",
                           "ioValue": 0
-                        },
-                        {
-                          "name": "Shape",
-                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -30021,10 +29850,6 @@
                         {
                           "name": "distZ",
                           "ioValue": 0
-                        },
-                        {
-                          "name": "Shape",
-                          "ioValue": "__GEOMETRY_INPUT__"
                         }
                       ],
                       "codeVersion": 1,
@@ -31112,10 +30937,6 @@
                                 {
                                   "name": "distZ",
                                   "ioValue": 0
-                                },
-                                {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -31181,10 +31002,6 @@
                                 {
                                   "name": "distZ",
                                   "ioValue": 0
-                                },
-                                {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -31372,10 +31189,6 @@
                                 {
                                   "name": "distZ",
                                   "ioValue": 0
-                                },
-                                {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -31441,10 +31254,6 @@
                                 {
                                   "name": "distZ",
                                   "ioValue": 0
-                                },
-                                {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -31632,10 +31441,6 @@
                                 {
                                   "name": "distZ",
                                   "ioValue": 0
-                                },
-                                {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -31701,10 +31506,6 @@
                                 {
                                   "name": "distZ",
                                   "ioValue": 0
-                                },
-                                {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -37839,10 +37640,6 @@
                                 {
                                   "name": "distZ",
                                   "ioValue": 0
-                                },
-                                {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -37908,10 +37705,6 @@
                                 {
                                   "name": "distZ",
                                   "ioValue": 0
-                                },
-                                {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -38104,10 +37897,6 @@
                                 {
                                   "name": "Angle",
                                   "ioValue": 90
-                                },
-                                {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -44074,10 +43863,6 @@
                                     {
                                       "name": "Dist",
                                       "ioValue": 25
-                                    },
-                                    {
-                                      "name": "Shape",
-                                      "ioValue": "__GEOMETRY_INPUT__"
                                     }
                                   ],
                                   "codeVersion": 1,
